@@ -1,4 +1,4 @@
-# 🐉 Dragon Tichu Cup — Tournament Website
+# 🐉 Tichu Cup — Tournament Website
 
 A website for running a **Tichu** tournament from start to finish: teams register on their phones, the organizer draws a random knockout bracket, players enter every hand on an iTichu-style score sheet, and winners move through the bracket automatically until a champion is crowned.
 

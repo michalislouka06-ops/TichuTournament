@@ -1,7 +1,7 @@
 <?php
 // Config, storage, auth and tournament logic shared by every page.
 
-const TOURNAMENT_NAME = 'Dragon Tichu Cup';
+const TOURNAMENT_NAME = 'Tichu Cup';
 const TOURNAMENT_DATE = 'Saturday, 14 November 2026';
 const TOURNAMENT_PLACE = 'Golden Lantern Hall';
 const MAX_TEAMS = 32;
