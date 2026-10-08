@@ -6,7 +6,7 @@ if (!is_admin()) {
     $error = null;
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         check_csrf();
-        if (ADMIN_PASSWORD === '') {
+        if (ADMIN_PASSWORD === '' || ADMIN_PASSWORD === 'change-me') {
             $error = 'The admin password has not been set up yet. Copy config.example.php to config.php and choose a password.';
         } elseif (hash_equals(ADMIN_PASSWORD, (string)($_POST['password'] ?? ''))) {
             session_regenerate_id(true);
