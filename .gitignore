@@ -1,0 +1,9 @@
+# Real admin password — use config.example.php as the template
+config.php
+
+# Tournament data: teams, phone numbers, PINs, bracket and scores
+data/*.json
+data/*.txt
+
+# Upload packages
+*.zip

@@ -1,0 +1,3 @@
+# Never serve git internals or the example config from the web.
+RedirectMatch 404 /\.git
+RedirectMatch 404 /config\.example\.php$
