@@ -4,4 +4,4 @@
 
 // Unlocks the admin page (draw the bracket, fix scores, manage teams).
 // The admin page stays locked until you replace 'change-me' with your own password.
-const ADMIN_PASSWORD = '9080';
+const ADMIN_PASSWORD = 'change-me';
